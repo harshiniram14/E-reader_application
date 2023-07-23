@@ -1,0 +1,48 @@
+.home {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .home h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: monospace;
+    font-stretch:extra-condensed
+  }
+  
+  .home p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    font-family: monospace;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: calc(25% - 8px);
+    margin-bottom: 16px;
+  }
+  
+  .column img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      flex-basis: calc(33.33% - 8px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .column {
+      flex-basis: 100%;
+    }
+  }
+  

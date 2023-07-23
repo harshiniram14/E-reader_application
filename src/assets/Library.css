@@ -1,0 +1,85 @@
+/* Global styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.head-view1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+/* Book container styles */
+.book-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Set a fixed width for each book container */
+}
+
+.book-cover1 {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.book-details1 {
+  text-align: center;
+}
+
+.book-details1 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.book-details1 p {
+  color: #666;
+}
+
+/* Image gallery layout */
+.book-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Reduce the space between books */
+.book-container1 {
+  margin: 5px; /* Adjust the margin to reduce the space between books */
+}
+
+/* Search bar styles */
+.search-bar {
+  text-align: center; /* Center the search bar */
+  margin-bottom: 10px; /* Add some spacing between the search bar and the image gallery */
+}
+
+.search-bar input {
+  width: 90%;
+  max-width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Responsive CSS for smaller screens */
+@media screen and (max-width: 768px) {
+  .book-container1 {
+    margin: 5px; /* Reduce the space between books for smaller screens */
+  }
+
+  .search-bar input {
+    max-width: 100%; /* Adjust the width of the search bar input for smaller screens */
+  }
+}

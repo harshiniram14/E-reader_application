@@ -1,0 +1,108 @@
+div.gallery {
+    border: 3px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .heading{
+    padding-left: 10px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  .descrip{
+    font-size: medium;
+    font-family: monospace;
+    font-weight: lighter;
+    font-stretch: expanded;
+  }
+  .read{
+    background-color: #c19b94; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .wish {
+    background-color: #dd9283; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .fa-star.checked {
+    color: orange;
+  }
+  
+  .fa-thumbs-up, .fa-thumbs-down{
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .fa-thumbs-up:hover , .fa-thumbs-down:hover{
+    color: rgb(153, 93, 93);
+  }
+
+  .star {
+  font-size: 24px; /* Default size for stars */
+}
+
+@media (max-width: 767px) {
+  .star {
+    font-size: 18px; /* Adjust size for smaller screens */
+  }
+}
+
+@media (max-width: 479px) {
+  .star {
+    font-size: 14px; /* Adjust size for even smaller screens */
+  }
+}

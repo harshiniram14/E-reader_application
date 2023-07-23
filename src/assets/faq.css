@@ -1,0 +1,38 @@
+.faq {
+    max-width: 600px;
+    padding-top: 15px;
+    margin: 10px;
+  }
+
+  .faq h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  .faq-item {
+    margin-bottom: 24px;
+  }
+
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .faq-answer {
+    display: none;
+    margin-top: 8px;
+  }
+
+  .faq-answer p {
+    margin-bottom: 8px;
+  }
+
+  .faq-question.active {
+    color: #c07676;
+  }
+
+  .faq-question.active + .faq-answer {
+    display: block;
+  }

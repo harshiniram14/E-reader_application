@@ -1,0 +1,73 @@
+
+[
+    {
+        "id":1,
+        "image":"https://i.postimg.cc/FsfmhZG8/11b32a461f8380cfedfded1f277a0fb1.jpg",
+        "title":"Killing Stalking",
+        "author":"Koogi",
+        "genres": ["Action","Comedy"],
+        "page": "./Killing",
+        "chapter": "88"
+        
+    },
+    {
+        "id":2,
+        "image":"https://i.postimg.cc/JnPmzYfV/de82cfbf197ccc2c7546867cb99f4df8.jpg",
+        "title":"Saikki",
+        "author":"Shuichi Aso",
+        "genres":["Adventure", "Comedy"],
+        "page":"./Saikki",
+        "chapter": 120
+        
+    },
+    {
+        "id":3,
+        "image":"https://i.postimg.cc/k5CdFd9P/9684f5b9c80cb620db681c52afbf2491.jpg",
+        "title":"Mob Psycho 100",
+        "author":"One",
+        "genres":["Action", "Comedy"],
+        "page":"./Mob",
+        "chapter": 101
+        
+    },
+    {
+        "id":4,
+        "image":"https://i.postimg.cc/MHNCnCt4/1b074a35b787b5469588318033e85946.jpg",
+        "title":"Demon Slayer",
+        "author":"Koyoharu Gotouge",
+        "genres":["Action", "Fantasy"],
+        "page":"",
+        "chapter": "88"
+        
+    },
+    {
+        "id":5,
+        "image":"https://i.postimg.cc/qR7SjJ5S/23864840cd4b59ed0985d63b6deb8e1b.jpg",
+        "title":"Dragon Ball",
+        "author":"Toriyama Akira",
+        "genres":["Action", "Comedy", "Fantasy", "Scifi"],
+        "page":"",
+        "chapter": "88"
+        
+    },
+    {
+        "id":6,
+        "image":"https://i.postimg.cc/W4TQq662/5f9e0fc1a31a07e4484473c7afd835dc.jpg",
+        "title":"Hunter x Hunter",
+        "author":"Togashi Yoshihiro",
+        "genres":["Action","Comedy","Drama","Fantasy"],
+        "page":"",
+        "chapter": "88"
+        
+    },
+    {
+        "id":7,
+        "image":"https://i.postimg.cc/RVnrk0Zz/98fd15d5b69e0f8f90a44be959bff360.jpg",
+        "title":"One Piece",
+        "author":"Oda Eiichiro",
+        "genres":["Action","Comedy","Fantasy"],
+        "page":"",
+        "chapter": "88"
+        
+    }
+]
